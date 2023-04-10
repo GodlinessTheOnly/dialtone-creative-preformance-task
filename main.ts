@@ -87,7 +87,7 @@ function EnemyBullets () {
         ...........fffff........
         `, SpriteKind.Player)
     EnemyShots2.setVelocity(100, 20)
-    EnemyShots2.setBounceOnWall(true)
+    EnemyShots2.setBounceOnWall(false)
 }
 function start () {
     hp = 1000
